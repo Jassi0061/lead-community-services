@@ -106,8 +106,19 @@ textarea {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
   flex: 0 0 auto;
+}
+
+.brand-logo {
+  width: auto;
+  height: 58px;
+  max-width: min(250px, 52vw);
+  display: block;
+  object-fit: contain;
+  padding: 5px 9px;
+  background: rgba(255, 255, 255, 0.94);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 26px rgba(14, 41, 37, 0.14);
 }
 
 .brand-mark {
@@ -846,6 +857,11 @@ details[open] p {
   box-shadow: none;
 }
 
+.footer-brand .brand-logo {
+  height: 54px;
+  box-shadow: none;
+}
+
 .site-footer p {
   margin: 0;
   color: rgba(255, 255, 255, 0.68);
@@ -1077,6 +1093,12 @@ details[open] p {
 @media (max-width: 620px) {
   .brand span span {
     font-size: 0.72rem;
+  }
+
+  .brand-logo {
+    height: 46px;
+    max-width: min(205px, 58vw);
+    padding: 4px 7px;
   }
 
   h1 {

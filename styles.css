@@ -97,7 +97,7 @@ textarea {
 }
 
 .header-inner {
-  min-height: 78px;
+  min-height: 92px;
   display: flex;
   align-items: center;
   gap: 28px;
@@ -111,8 +111,8 @@ textarea {
 
 .brand-logo {
   width: auto;
-  height: 58px;
-  max-width: min(250px, 52vw);
+  height: 72px;
+  max-width: min(320px, 58vw);
   display: block;
   object-fit: contain;
   padding: 5px 9px;
@@ -858,7 +858,7 @@ details[open] p {
 }
 
 .footer-brand .brand-logo {
-  height: 54px;
+  height: 66px;
   box-shadow: none;
 }
 
@@ -1003,7 +1003,7 @@ details[open] p {
   }
 
   .header-inner {
-    min-height: 70px;
+    min-height: 78px;
   }
 
   .nav-toggle {
@@ -1096,8 +1096,8 @@ details[open] p {
   }
 
   .brand-logo {
-    height: 46px;
-    max-width: min(205px, 58vw);
+    height: 56px;
+    max-width: min(250px, 62vw);
     padding: 4px 7px;
   }
 
